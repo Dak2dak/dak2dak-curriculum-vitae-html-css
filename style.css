@@ -19,14 +19,13 @@ header h1 {
 }
 
 section {
-    margin: 1rem 3rem 1rem 3rem;
+    margin: 1rem 3rem;
     padding: 1rem .5rem 0 ;
     box-shadow: 1px 3px 5px 3px grey;
 }
 
 .container {
     display: flex;
-    /* margin: 0 auto; */
 }
 
 /* =============Left-side CSS=============== */
@@ -318,6 +317,9 @@ svg {
 /* ============================================ */
 /* Responsive */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
+    section {
+        margin: 1rem 0;
+    }
     
 }

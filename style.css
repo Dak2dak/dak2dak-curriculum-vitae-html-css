@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: linear-gradient(0.25turn, #ececf1, #fff, #ececf1);
+}
+
+header h1 {
+    text-align: center;
+    color: #24347C;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+
+section {
+    margin: 1rem 3rem 1rem 3rem;
+    padding: 1rem .5rem 0 ;
+    box-shadow: 1px 3px 5px 3px grey;
+}
+
+.container {
+    display: flex;
+    /* margin: 0 auto; */
+}
+
+/* =============Left-side CSS=============== */
+
+svg {
+    width: 16px;
+    fill: #24347C;
+}
+
+.photo {
+    background-color: #24347C;
+    text-align: center;
+}
+
+.photo p {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    padding: 3px 0;
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 80%;
+}
+
+/* First child CSS */
+.left__side {
+    width: 30%;
+    background-color: #24347C;
+}
+
+.first-child svg {
+    width: 14px;
+}
+
+.personal__details {
+    background-color: #BCBCBC;
+    padding-left: .6rem;
+}
+
+.title {
+    border-bottom: 1px solid #848484;
+    color: #24347C;
+    font-weight: bold;
+    padding-top: .5rem;
+    padding-bottom: .3rem;
+}
+
+.name,
+.email,
+.phone,
+.home,
+.birthday,
+.my-github {
+    display: flex;
+    gap: .5rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+}
+
+.my-github {
+    margin-bottom: 1rem;
+}
+
+.my-github a {
+    text-decoration: none;
+    font-weight: 600;
+}
+/* ===================================================== */
+
+
+/* Second child CSS */
+.second-child {
+    margin-bottom: .5rem;
+}
+
+.second-child svg {
+    width: 8px;
+}
+
+.french, .english {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: .5rem;
+    line-height: 2rem;
+}
+
+.language-bar {
+    width: 30px;
+    height: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #A4CCF4;
+}
+
+.fr-bar {
+    width: 90%;
+    height: 10px;
+    display: block;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #24347C;
+}
+
+.eng-bar {
+    width: 75%;
+    height: 10px;
+    display: block;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #24347C;
+}
+
+
+.french {
+    margin-top: .3rem;
+}
+/* ========================================================== */
+
+/* Third child CSS */
+.third-child {
+    margin-bottom: 1rem;
+}
+
+.third-child svg {
+    width: 5px;
+}
+
+.quality-1,
+.quality-2,
+.quality-3 {
+    display: flex;
+    gap: .5rem;
+    line-height: 2rem;
+}
+/* =========================================================== */
+
+/* Fourth child CSS */
+.fourth-child {
+    margin-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.fourth-child svg {
+    width: 5px;
+}
+/* =========================================================== */
+
+
+
+
+/* ===================Right-side CSS======================= */
+
+/* Right-side CSS */
+.right__side {
+    padding: 0 1rem;
+    width: 70%;
+}
+
+.right__first--child {
+    margin-bottom: 1rem;
+}
+
+.right__side--title {
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.headings {
+    display: flex;
+    margin-top: .6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headings h3 {
+    color: #0077b5;
+    font-size: 16px;
+}
+
+.fields {
+    padding-left: 1rem;
+    width: 70%;
+}
+
+.field-details {
+    line-height: 2rem;
+}
+
+.fields p {
+    margin: .3rem 0;
+    text-align: justify;
+}
+
+.more-details svg {
+    width: 5px;
+}
+
+.training-headings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.training-headings .title {
+    border-bottom: none;
+    color: #0077b5;
+}
+
+.training-details {
+    margin: .5rem 0;
+}
+
+/* =========================================== */
+/* Right third child CSS */
+
+.right__third-child {
+    margin-top: 1rem;
+}
+
+.skills {
+    margin-top: .5rem;
+}
+
+.skill {
+    display: flex;
+    line-height: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progress-bar {
+    width: 200px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #A4CCF4;
+}
+
+.react-bar {
+    width: 90%;
+    height: 10px;
+    display: block;
+    border-radius: 10px;
+    background-color: #24347C;
+}
+
+.css-bar {
+    width: 85%;
+    height: 10px;
+    display: block;
+    border-radius: 10px;
+    background-color: #24347C;
+}
+
+.html-bar {
+    width: 90%;
+    height: 10px;
+    display: block;
+    border-radius: 10px;
+    background-color: #24347C;
+}
+
+.scilab-bar {
+    width: 60%;
+    height: 10px;
+    display: block;
+    border-radius: 10px;
+    background-color: #24347C;
+}
+
+.office-bar {
+    width: 65%;
+    height: 10px;
+    display: block;
+    border-radius: 10px;
+    background-color: #24347C;
+}
+
+/* Signature */
+.signature {
+    text-align: center;
+    font-size: 10px;
+    color: #848484;
+    font-weight: 600;
+}
+
+/* ============================================ */
+/* Responsive */
+
+@media screen and (max-width: 375px) {
+    
+}

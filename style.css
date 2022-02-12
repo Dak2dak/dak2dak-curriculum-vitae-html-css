@@ -20,7 +20,7 @@ header h1 {
 
 section {
     margin: 1rem 3rem;
-    padding: 1rem .5rem 0 ;
+    padding: 1rem .5rem;
     box-shadow: 1px 3px 5px 3px grey;
 }
 
@@ -44,7 +44,7 @@ svg {
     text-align: center;
     color: #fff;
     font-weight: 600;
-    padding: 3px 0;
+    padding: 5px 0;
 }
 
 .photo img {
@@ -89,6 +89,11 @@ svg {
 
 .my-github {
     margin-bottom: 1rem;
+}
+
+.git-link {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .my-github a {
@@ -320,6 +325,25 @@ svg {
 @media screen and (max-width: 768px) {
     section {
         margin: 1rem 0;
+        padding: 1rem .2rem 0 0;
+    }
+
+    .personal__details {
+        padding-left: .3rem;
+    }
+
+    .name,
+    .email,
+    .phone,
+    .home,
+    .birthday,
+    .my-github {
+        gap: .5rem;
+        padding-right: .5rem;
+    }
+
+    .my-github {
+        width: 95%;
     }
 
     .progress-bar {

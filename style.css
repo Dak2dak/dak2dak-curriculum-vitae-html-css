@@ -321,5 +321,9 @@ svg {
     section {
         margin: 1rem 0;
     }
+
+    .progress-bar {
+        width: 20%;
+    }
     
 }

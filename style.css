@@ -96,9 +96,12 @@ svg {
     flex-wrap: wrap;
 }
 
+.email a {
+    text-decoration: none;
+}
+
 .my-github a {
     text-decoration: none;
-    font-weight: 600;
 }
 /* ===================================================== */
 
@@ -332,18 +335,20 @@ svg {
         padding-left: .3rem;
     }
 
-    .name,
-    .email,
-    .phone,
-    .home,
-    .birthday,
-    .my-github {
-        gap: .5rem;
-        padding-right: .5rem;
+    .mail-link {
+        display: none;
     }
 
-    .my-github {
-        width: 95%;
+    .email svg {
+        width: 24px;
+    }
+
+    .my-github svg {
+        width: 24px;
+    }
+
+    .git-link {
+        display: none;
     }
 
     .progress-bar {

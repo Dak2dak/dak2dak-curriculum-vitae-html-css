@@ -24,6 +24,14 @@ section {
     box-shadow: 1px 3px 5px 3px grey;
 }
 
+/* #english__version {
+    display: none;
+} */
+
+.french__version {
+    display: none;
+}
+
 .container {
     display: flex;
 }
@@ -68,11 +76,11 @@ svg {
 }
 
 .title {
-    border-bottom: 1px solid #848484;
     color: #24347C;
     font-weight: bold;
     padding-top: .5rem;
     padding-bottom: .3rem;
+    border-bottom: 1px solid #848484;
 }
 
 .name,
@@ -91,9 +99,8 @@ svg {
     margin-bottom: 1rem;
 }
 
-.git-link {
-    display: flex;
-    flex-wrap: wrap;
+.git-link:hover {
+    cursor: pointer;
 }
 
 .email a {
@@ -234,6 +241,10 @@ svg {
     width: 5px;
 }
 
+.training-details {
+    margin: .5rem 0;
+}
+
 .training-headings {
     display: flex;
     justify-content: space-between;
@@ -243,10 +254,6 @@ svg {
 .training-headings .title {
     border-bottom: none;
     color: #0077b5;
-}
-
-.training-details {
-    margin: .5rem 0;
 }
 
 /* =========================================== */
@@ -349,6 +356,18 @@ svg {
 
     .git-link {
         display: none;
+    }
+
+    .right__side--title {
+        text-align: start;
+    }
+
+    .fields {
+        padding-left: 0;
+    }
+
+    .fields p {
+        text-align: start;
     }
 
     .progress-bar {

@@ -24,13 +24,41 @@ section {
     box-shadow: 1px 3px 5px 3px grey;
 }
 
-/* #english__version {
-    display: none;
-} */
 
-#french__version {
+/* ============== Switch languages or versions =================== */
+
+.btn-box {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#btn, #swithBtn {
+    background-color: #24347C;
+    border-radius: 20px;
+    padding: .5rem 1.2rem;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+#btn:hover, #swithBtn:hover {
+    cursor: pointer;
+    background-color: #0077b5;
+}
+
+#french__version, #english__version {
     display: none;
 }
+
+#french__version.isVisible {
+    display: block;
+}
+
+#english__version.isVisible {
+    display: block;
+}
+
+/* ================== End switching code ===================== */
 
 .container {
     display: flex;

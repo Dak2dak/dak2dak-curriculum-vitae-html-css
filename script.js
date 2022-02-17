@@ -11,6 +11,7 @@ swithBtn.addEventListener('click', function Switching() {
     
     title.innerHTML = "Curriculum Vitæ";
     language1.classList.toggle('isVisible');
+    // toggle.disabled = true;
 
 })
 
@@ -18,7 +19,7 @@ toggle.addEventListener('click', function myFunction() {
 
     title.innerHTML = "Resume";
     language2.classList.toggle('isVisible');
-    // document.getElementById('swithBtn').disabled = true;
+    // swithBtn.disabled = true;
     
 })
 

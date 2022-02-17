@@ -16,6 +16,7 @@ header h1 {
     color: #24347C;
     word-spacing: 5px;
     letter-spacing: 5px;
+    padding-top: 1rem;
 }
 
 section {
@@ -86,6 +87,7 @@ svg {
 .photo img {
     border-radius: 50%;
     width: 80%;
+    object-fit: cover;
 }
 
 /* First child CSS */
